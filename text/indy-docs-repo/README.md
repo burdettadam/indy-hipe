@@ -23,9 +23,12 @@ Indy Docs will house a script that will build documentation from each Indy proje
 
 ## Proposed Hosting
 
-### GitHub Pages
+### ~~GitHub Pages~~
 
-GitHub provides free hosting for project web pages. To use GitHub pages, navigate to settings and point GitHub to the appropriate branch. With deployment tools like [mkdocs](https://www.mkdocs.org/user-guide/deploying-your-docs/#github-pages) or [sphinx](http://www.sphinx-doc.org/en/master/), GitHub Pages are easy to maintain.
+~~GitHub provides free hosting for project web pages. To use GitHub pages, navigate to settings and point GitHub to the appropriate branch. With deployment tools like [mkdocs](https://www.mkdocs.org/user-guide/deploying-your-docs/#github-pages) or [sphinx](http://www.sphinx-doc.org/en/master/), GitHub Pages are easy to maintain.~~
+
+###Read The Docs
+Read The Docs provides free hosting. To use read-the-docs, a indy read-the-docs acount owner points read-the-docs to project source code and adds a webhook to GitHub that notifies read-the-docs on updates. Read-the-docs also supports markdown, indy's preferred documentation format. 
 
 ## Proposed Documentation Structure
 
@@ -48,7 +51,7 @@ Documentation more oriented toward consumers (how to build Libindy, Getting Star
 # Drawbacks
 [drawbacks]: #drawbacks
 
-The most significant drawback to indy-docs is that it would require maintainers, contribution from the community, and consistent upkeep. While centralized documentation will help eliminate a lot of time spent onboarding users, the offset of time required to maintain it may result in more time spent on documentation. Whether this time is well spent is determined by the value that this documentation provides the project.
+The most significant drawback to indy-docs is that it would require maintainers, contributions from the community, and consistent upkeep. While centralized documentation will help eliminate a lot of time spent onboarding users, the offset of time required to maintain it may result in more time spent on documentation. Whether this time is well spent is determined by the value that this documentation provides the project.
 
 # Rationale and alternatives
 [alternatives]: #alternatives
@@ -59,11 +62,11 @@ By housing consumer documentation in one location, Indy can reduce the amount of
 
 Many developers are comfortable browsing through repositories; however, an increasing number of less tech-savvy consumers will begin to take interest in Indy, increasing the demand for a more straightforward selection of documentation.
 
-There have been several efforts to standardize the documentation for the Indy project, and each have been useful in their own way (not without their own flaws). A single, appropriately named indy-docs repo would eliminate confusion around where to find the documentation, especially if found with a good looking GitHub Page.
+There have been several efforts to standardize the documentation for the Indy project, and each has been useful in their own way (not without their own flaws). A single, appropriately named indy-docs repo would eliminate confusion around where to find the documentation, especially if found with a good looking GitHub Page.
 
 ### Alternatives
 
-As noted below, Hyperledger Fabric has utilized **ReadTheDocs** for their [documentation](https://hyperledger-fabric.readthedocs.io/). Similar to GitHub Pages, ReadTheDocs enables the organization of various files into a structured website, almost like a book with its chapters, appendices, and table of contents.
+~~As noted below, Hyperledger Fabric has utilized **ReadTheDocs** for their [documentation](https://hyperledger-fabric.readthedocs.io/). Similar to GitHub Pages, ReadTheDocs enables the organization of various files into a structured website, almost like a book with its chapters, appendices, and table of contents.~~ ReadTheDocs is preferred
 
 Additionally, there are several other markdown compilers (such as **MkDocs** and **mdBook**) that could help with this structure.
 
