@@ -166,14 +166,3 @@ Key Maintainers:
 
 [Maintainers Doc](https://github.com/hyperledger/indy-jenkins-pipeline-lib/blob/master/MAINTAINERS.md)
 
-## indy-doc
-
-[GitHub Link](https://github.com/hyperledger/indy-doc) (see the README)
-
-### Description
-Contains official indy documentation with accompanying scripts to generate documentation for read the docs hosting service.
-
-### Maintenance
-This repository will be maintained by Indy Project maintainers. PRs submitted to this repository will follow the standard review process.
-
-[Maintainers Doc](https://github.com/hyperledger/indy-doc/blob/master/MAINTAINERS.md)
